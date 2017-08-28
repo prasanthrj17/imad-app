@@ -16,12 +16,12 @@ app.get('/', function (req, res) {
 
 app.get('/ui/style.css', function (req, res) {
     res.send('Article two requested and will be served here');
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.sendFile(path.join(__dirname, 'u', 'Article two.html'));  
 });
 
 app.get('/ui/madi.png', function (req, res) {
     res.send('Article three requested and will be served here');
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+  res.sendFile(path.join(__dirname, 'u', 'Article three .html'));  
 });
 
 
